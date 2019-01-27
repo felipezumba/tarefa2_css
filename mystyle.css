@@ -1,0 +1,43 @@
+.bt{
+    border:1px solid rgb(0, 0, 0);
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none;
+}
+.bt-azul{
+    border-color:rgb(80, 174, 252);
+    background:linear-gradient(to bottom, rgb(138, 198, 245) 5%, rgb(67, 160, 236) 100%);
+    box-shadow:inset 0px 1px 0px 0px rgb(207, 229, 248);
+    color:#fff;
+    text-shadow:0px 1px 0px rgb(87, 136, 8);  
+}
+.bt-amarelo {
+    border-color:rgb(7, 7, 6);
+    background:linear-gradient(to bottom, rgb(234, 243, 155) 5%, rgb(246, 250, 6) 100%);
+    box-shadow:inset 0px 1px 0px 0px rgb(245, 245, 201);
+    color:#333;
+    text-shadow:0px 1px 0px rgb(145, 128, 3);
+}
+.bt-verde {
+    border-color:rgb(111, 192, 108);
+    background:linear-gradient(to bottom, rgb(169, 214, 168) 5%, rgb(109, 190, 106)  100%);
+    box-shadow:inset 0px 1px 0px 0px rgb(221, 235, 221);
+    color:#fff;
+    text-shadow:0px 1px 0px rgb(88, 136, 11);
+}
+.bt-azul:hover {
+    background:linear-gradient(to bottom, rgb(67, 160, 236) 5%, rgb(138, 198, 245) 100%);
+    box-shadow: 0px 3px 0px rgb(2, 3, 15)
+}
+.bt-amarelo:hover {
+    background:linear-gradient(to bottom, rgb(239, 243, 8) 5%, rgb(246, 247, 242) 100%);
+    box-shadow: 0px 3px 0px rgb(2, 3, 15)
+}
+.bt-verde:hover {
+    background:linear-gradient(to bottom, rgb(109, 190, 106) 5%, rgb(169, 214, 168) 100%);
+    box-shadow: 0px 3px 0px rgb(2, 3, 15)
+}
